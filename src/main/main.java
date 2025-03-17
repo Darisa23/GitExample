@@ -4,12 +4,17 @@
  */
 package main;
 
+import core.Person;
+
 /**
  *
  * @author Alexander Sanguino
  */
 public class main {
+    
     public static void main(String[] args){
         System.out.println("Hello Moto");
+        Person person = new Person("Dariana",18,1067600540);
+        System.out.println(person);
     }
 }

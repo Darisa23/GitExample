@@ -19,5 +19,9 @@ public class Person {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" + "name=" + name + ", age=" + age + ", id=" + id + '}';
+    }
     
 }

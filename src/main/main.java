@@ -13,7 +13,6 @@ import core.Person;
 public class main {
     
     public static void main(String[] args){
-        System.out.println("Hello Moto");
         Person person = new Person("Dariana",18,1067600540);
         System.out.println(person);
     }
